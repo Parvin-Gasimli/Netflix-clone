@@ -23,6 +23,7 @@ const ListItem = (index) => {
         src="https://i1.wp.com/www.alphr.com/wp-content/uploads/2015/10/narcos.jpeg?resize=690%2C388&ssl=1"
         alt=""
       />
+    
       {isHovered && (
         <div>
           <video src={trailer} autoPlay={true} loop></video>
